@@ -1,0 +1,12 @@
+# ~/.config/starship.toml
+
+[username]
+show_always = true
+disabled = false
+
+[hostname]
+ssh_only = false
+disabled = false
+
+[nodejs]
+disabled = true
