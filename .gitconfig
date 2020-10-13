@@ -1,0 +1,5 @@
+[user]
+	name = Michael Borders
+	email = sysrabbit@ivalice.cc
+[pull]
+	rebase = true
