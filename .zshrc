@@ -128,6 +128,8 @@ alias youtube-dl='noglob youtube-dl'
 
 ## Zsh Settings
 fpath+=~/.config/sh/completions/zsh
+mkdir -p $XDG_CACHE_HOME/zsh/zcompdump-$ZSH_VERSION
+compinit -d $XDG_CACHE_HOME/zsh/zcompdump-$ZSH_VERSION
 
 setopt correct              # Auto correct mistakes
 setopt extendedglob		    # Extended globbing. Allows using regular expressions with *
