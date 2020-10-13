@@ -123,6 +123,7 @@ alias more='less'
 alias mpc='mpc --host=127.0.0.1 --port=6600'
 alias rg='rg --color=auto'
 alias wget='noglob wget --hsts-file /dev/null'
+alias yarn="yarn --use-yarnrc $XDG_CONFIG_HOME/yarn/config"
 alias youtube-dl='noglob youtube-dl'
 
 ## Zsh Settings
