@@ -37,11 +37,11 @@ disable = ["vim", "go"]
 [git]
 max_concurrency = 5
 repos = [
-    "~/Development/sys/themes/Vimix-cursors",
-    "~/Development/sys/themes/vimix-gtk-themes",
-    "~/Development/sys/themes/vimix-icon-theme",
-    "~/Development/sys/themes/vimix-kde",
-    "~/Development/sys/util/ff-userjs",
+    "~/src/system/misc/Vimix-cursors",
+    "~/src/system/misc/vimix-gtk-themes",
+    "~/src/system/misc/vimix-icon-theme",
+    "~/src/system/misc/vimix-kde",
+    "~/src/system/misc/ff-userjs",
 ]
 
 # Don't pull the predefined git repos
@@ -59,12 +59,12 @@ self_update = false
 
 # Custom commands
 [commands]
-"Upgrade Firefox user.js" = "cd ~/Development/sys/util/ff-userjs && ~/Development/sys/util/ff-userjs/patch.sh"
+"Upgrade Firefox user.js" = "cd ~/src/system/util/ff-userjs && ~/src/system/util/ff-userjs/patch.sh"
 "Upgrade Neovim" = "cd ~/.config/nvim && make update"
-"Update Vimix GTK theme" = "cd ~/Development/sys/themes/vimix-gtk-themes && ~/Development/sys/themes/vimix-gtk-themes/install.sh -t beryl"
-"Update Vimix cursors" = "cd ~/Development/sys/themes/Vimix-cursors && ~/Development/sys/themes/Vimix-cursors/install.sh"
-"Update Vimix icon theme" = "cd ~/Development/sys/themes/vimix-icon-theme && ~/Development/sys/themes/vimix-icon-theme/install.sh Beryl"
-"Update Vimix kvantum theme" = "cd ~/Development/sys/themes/vimix-kde && ~/Development/sys/themes/vimix-kde/install.sh -t beryl"
+"Update Vimix GTK theme" = "cd ~/src/system/misc/vimix-gtk-themes && ~/src/system/misc/vimix-gtk-themes/install.sh -t beryl"
+"Update Vimix cursors" = "cd ~/src/system/misc/Vimix-cursors && ~/src/system/misc/Vimix-cursors/install.sh"
+"Update Vimix icon theme" = "cd ~/src/system/misc/vimix-icon-theme && ~/src/system/misc/vimix-icon-theme/install.sh Beryl"
+"Update Vimix kvantum theme" = "cd ~/src/system/misc/vimix-kde && ~/src/system/misc/vimix-kde/install.sh -t beryl"
 
 #[linux]
 # Arguments to pass yay when updating packages
