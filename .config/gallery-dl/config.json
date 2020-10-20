@@ -1,0 +1,16 @@
+{
+    "extractor":
+    {
+        "base-directory": "~/Pictures/gallery-dl/",
+        "archive": "~/.config/gallery-dl/archive.sqlite3",
+        "reddit":
+        {
+            "comments": 100,
+            "morecomments": true,
+            "date-format": "%Y-%m-%dT%H:%M:%S",
+            "recursion": 1,
+            "videos": true,
+            "parent-directory": "~/Pictures/gallery-dl/reddit/"
+        }
+    }
+}
