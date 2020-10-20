@@ -1,0 +1,9 @@
+[Unit]
+Description=Automatically scrape various galleries
+
+[Service]
+Type=oneshot
+ExecStart=/home/michaelb/src/system/util/gallery-dl.sh
+
+[Install]
+WantedBy=default.target

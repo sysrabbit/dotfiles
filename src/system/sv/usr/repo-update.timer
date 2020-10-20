@@ -1,0 +1,11 @@
+[Unit]
+Description=Automatically update various git repos
+
+[Timer]
+OnBootSec=60min
+OnCalendar=0/8:00:00
+Persistent=true
+Unit=repo-update.service
+
+[Install]
+WantedBy=timers.target

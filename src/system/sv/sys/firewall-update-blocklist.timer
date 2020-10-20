@@ -1,0 +1,12 @@
+[Unit]
+Description=Automatically update blocked ip ranges
+After=network.target
+After=firewalld.service
+
+[Timer]
+OnCalendar=weekly
+Persistent=true
+Unit=firewall-update-blocklist.service
+
+[Install]
+WantedBy=timers.target

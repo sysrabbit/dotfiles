@@ -1,0 +1,9 @@
+[Unit]
+Description=Automatically update predefined git repos
+
+[Service]
+Type=oneshot
+ExecStart=topgrade --only git_repos --only custom_commands
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,10 @@
+[Unit]
+Description=Jupyter Lab
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/jupyter lab --port 16143
+WorkingDirectory=/home/michaelb/src/jupyter
+
+[Install]
+WantedBy=default.target

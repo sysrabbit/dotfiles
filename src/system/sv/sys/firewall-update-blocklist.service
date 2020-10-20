@@ -1,0 +1,11 @@
+[Unit]
+Description=Automatically update blocked ip ranges
+After=network.target
+After=firewalld.service
+
+[Service]
+Type=oneshot
+ExecStart=/home/michaelb/src/system/net/block-countries.sh
+
+[Install]
+WantedBy=default.target
