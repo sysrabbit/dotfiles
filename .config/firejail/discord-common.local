@@ -1,2 +1,3 @@
 novideo
 private-bin electron
+seccomp chroot
